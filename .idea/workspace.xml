@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ade83f93-6e7c-40b0-95f0-7782e1187d51" name="Default Changelist" comment="" />
+    <list default="true" id="ade83f93-6e7c-40b0-95f0-7782e1187d51" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,16 +13,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/tutorial/dataTypes2.clj">
+        <entry file="file://$PROJECT_DIR$/src/tutorial/strucMaps.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="204">
+              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -33,6 +35,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -41,10 +46,11 @@
         <option value="$PROJECT_DIR$/src/tutorial/functions.clj" />
         <option value="$PROJECT_DIR$/src/tutorial/dataTypes.clj" />
         <option value="$PROJECT_DIR$/src/tutorial/dataTypes2.clj" />
+        <option value="$PROJECT_DIR$/src/tutorial/strucMaps.clj" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -57,17 +63,17 @@
         <subPane>
           <expand>
             <path>
-              <item name="tutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="clj-basics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clj-basics" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="tutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="clj-basics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clj-basics" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="tutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="clj-basics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clj-basics" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="tutorial" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -80,11 +86,12 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="cursive.last.file.extension./Users/mussi/projects/projects-clojure/udemy/tutorial/src" value="clj" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="ReplState" timestamp="1562427499793">{:repl-history {:ide [], :local [{:command &quot;(-main 5)&quot;, :offset 9, :ns &quot;tutorial.core&quot;} {:command &quot;(-main \&quot;Yuri Mussi\&quot;)&quot;, :offset 20, :ns &quot;tutorial.core&quot;} {:command &quot;(-main 2 3)&quot;, :offset 11, :ns &quot;tutorial.core&quot;} {:command &quot;(-main [2 3])&quot;, :offset 13, :ns &quot;tutorial.core&quot;} {:command &quot;(-main)&quot;, :offset 7, :ns &quot;tutorial.functions&quot;} {:command &quot;(#(println \&quot;hello\&quot; %) \&quot;Yuri Mussi\&quot;)&quot;, :offset 35, :ns &quot;tutorial.functions&quot;} {:command &quot;(#(println \&quot;hello\&quot; %1 \&quot;how are you\&quot; %2) \&quot;Yuri\&quot; \&quot;Today\&quot;)&quot;, :offset 55, :ns &quot;tutorial.functions&quot;} {:command &quot;(increment 3)&quot;, :offset 13, :ns &quot;tutorial.functions&quot;} {:command &quot;(increment-set)&quot;, :offset 15, :ns &quot;tutorial.functions&quot;} {:command &quot;(increment-set-2 [2 4 6 7 5 8])&quot;, :offset 31, :ns &quot;tutorial.functions&quot;}], :remote []}}</component>
+  <component name="ReplState" timestamp="1562516268178">{:repl-history {:ide [], :local [{:command &quot;(-main 5)&quot;, :offset 9, :ns &quot;tutorial.core&quot;} {:command &quot;(-main \&quot;Yuri Mussi\&quot;)&quot;, :offset 20, :ns &quot;tutorial.core&quot;} {:command &quot;(-main 2 3)&quot;, :offset 11, :ns &quot;tutorial.core&quot;} {:command &quot;(-main [2 3])&quot;, :offset 13, :ns &quot;tutorial.core&quot;} {:command &quot;(-main)&quot;, :offset 7, :ns &quot;tutorial.functions&quot;} {:command &quot;(#(println \&quot;hello\&quot; %) \&quot;Yuri Mussi\&quot;)&quot;, :offset 35, :ns &quot;tutorial.functions&quot;} {:command &quot;(#(println \&quot;hello\&quot; %1 \&quot;how are you\&quot; %2) \&quot;Yuri\&quot; \&quot;Today\&quot;)&quot;, :offset 55, :ns &quot;tutorial.functions&quot;} {:command &quot;(increment 3)&quot;, :offset 13, :ns &quot;tutorial.functions&quot;} {:command &quot;(increment-set)&quot;, :offset 15, :ns &quot;tutorial.functions&quot;} {:command &quot;(increment-set-2 [2 4 6 7 5 8])&quot;, :offset 31, :ns &quot;tutorial.functions&quot;} {:command &quot;(Pets)&quot;, :offset 6, :ns &quot;tutorial.core&quot;}], :remote []}}</component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -97,7 +104,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Clojure Application.core">
+  <component name="RunManager" selected="Clojure REPL.tutorial">
     <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
       <setting name="replType" value="NREPL" />
       <setting name="execution" value="LEININGEN" />
@@ -140,8 +147,8 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Clojure REPL.tutorial" />
       <item itemvalue="Clojure Application.core" />
+      <item itemvalue="Clojure REPL.tutorial" />
     </list>
     <recent_temporary>
       <list>
@@ -166,16 +173,13 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19456366" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19742489" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" weight="0.3299363" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
@@ -183,16 +187,19 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="REPL" side_tool="true" visible="true" weight="0.3297568" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Leiningen" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.3299363" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info active="true" anchor="right" id="REPL" order="6" side_tool="true" visible="true" weight="0.3297568" />
+      <window_info anchor="right" id="Leiningen" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
     </layout>
     <layout-to-restore>
       <window_info id="Image Layers" order="0" />
@@ -257,6 +264,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
           <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tutorial/strucMaps.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
         </state>
       </provider>
     </entry>
